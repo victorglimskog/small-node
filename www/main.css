@@ -1,3 +1,41 @@
 body {
-    background-color: #ccc;
+    background-color: #333;
+    color: #eee;
+    font-family: Oxygen;
+    font-weight: 300;
+}
+
+h1 {
+    font-weight: normal;
+    text-align: center;
+}
+
+ul {
+    font-size: 24px;
+    list-style: none;
+    margin-top: 60px;
+    padding: 0;
+    text-align: center;
+}
+
+.sub-header {
+    font-size: 14px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus{
+    color: #eee;
+}
+
+ul > li > a:hover {
+    color: #555;
+    cursor: pointer;
+}
+
+a:visited {
+    color: #eee;
 }
